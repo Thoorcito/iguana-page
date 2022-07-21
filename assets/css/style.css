@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+   
+ 
+}
+/* Esto corresponde a edicion banner */
+.header{
+    background-color: black;
+    color: white;
+    height: 73px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+/* esto es edicion texto del banner */
+.header h1{
+    padding: 7px 529px 7px  530px ;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+    font-size: 50px;
+}
+
+/* esto es edicion  articulo */
+.articulo{
+    background-color: black;
+    margin-top: -10px;
+    height: 348px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+/* esto es edicion de texto del articulo */
+.texto {
+    color: white;
+    padding: 76px 0px 75px 150px;
+    height: 197px;
+    width: 475px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; 
+    text-align: left;
+    font-size: 16px;
+   
+}
+
+/* edicion de imagen del articulo */
+.imagen {
+    text-align: center;
+    padding: 45px 150px 66px 106px;
+}
+
+/* edicion tamaño imagen  */
+.imagen img {
+    width: 399px;
+    height: 237px;
+}
+
+/* edicion  segundo articulo */
+.articulo2{
+    background-color: #1E1A13;
+    height: 348px;
+    width: 100%;
+    color: white;
+}
+
+/* edicion  texto articulo 2*/
+
+.articulo2 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+    text-align: center;
+    font-size: 40px; 
+    padding: 75px 50px;  
+}
+
+/* esto es edicion de iconos */
+.iconos{
+    width: 30%;
+    display: inline-block;   
+}
+
+
+/* edicion contenedor de iconos */
+.contenedor {
+    display: block; 
+    text-align: center;;
+    padding: 0px 323.82px 120.2px 326px;
+    
+}
+/* edicion texto iconos */
+.textoiconos h3{
+ font-size: 25px;
+ font-family: 'raleway',sans-serif;
+ font-weight: 300;
+ padding-top: 16.2px;
+ padding-bottom: 74px;
+    
+}
+/* edicion contenedor de imagenes */
+.imagenes{
+    padding: 73px 150px 73px 150px;
+    background-color: black ;
+    text-align: center;
+}
+/* edicion de imagen */
+.imagenes img {
+    padding: 0px 16px 0px 0px;
+    width: 316px;
+    height: 202px; 
+}
+
+/* edicion footer */
+.creditos{
+    background-color: #1E1A13;
+    color: white;
+    height: 102px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+   
+}
+/* edicion texto footer */
+.textofooter h4{
+    font-family: 'raleway',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    padding: 39px 299px;
+    height: 24px;
+    width: 682px;
+}
